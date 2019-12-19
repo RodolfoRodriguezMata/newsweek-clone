@@ -3,66 +3,1180 @@
   <head>
     <meta charset="utf-8">
     <title>Newsweek</title>
-    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body>
-    <main class="container-fluid">
-      <header class="row bg-danger">
-        <div class="col text-white">
-          Date you're visiting in
+
+    <nav class="navbar bg-orange d-flex d-none d-md-block d-lg-none fixed-top">
+      <img src="images/logo.svg" class="img-fluid hidden-logo" alt="Newsweek logo">
+      <a href="#" class="white font-weight-bold small-font flex-fill text-right">Sign In </a>
+      <button type="button" class="btn btn-light orange btn-sm">Subscribe ></button>
+  
+    </nav>
+  
+    <div class="d-none d-lg-block">
+      <div class="jumbotron d-flex justify-content-around header bg-orange p-3 mb-1">
+        <h6 class="white flex-fill date d-flex align-items-end pl-3">Date you are visiting in.</h6>
+        <div class="header-wrapper container d-flex">
+          <img src="images/logo.svg" class="img-fluid main-logo" alt="Newsweek logo">
+          <div class="container-fluid d-inline-flex justify-content-around align-items-end">
+            <a href="" class="white font-weight-bold small-font flex-fill pb-1">Sign In</a>
+            <button type="button" class="btn btn-light orange btn-sm flex-fill">Subscribe ></button>
+          </div>
         </div>
-        <div class="col">
-          <img src="./images/logo.svg" alt="Newsweek logo in white">
-        </div>
-        <div class="col">
-          <p class="text-white" href="#">SIGN IN</p>
-          <span class="badge badge-light text-danger" href="#">SUBSCRIBE<img id="arrow" src="./images/arrow.svg" alt="More than symbol, as an arrow"></span>
-        </div>
-      </header>
-      <nav class="nav-bar">
-        <ul class="navbar-nav navbar-expand-lg">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-        </ul>
-        <form class="form-inline">
-          <input type="text">
-          <button><img src="./images/search.svg" alt="Magnifying glass icon"></button>
+  
+      </div>
+      <nav class="hidden-xs collapse navbar-collapse navbar-expand-lg navbar-light d-flex no-padding mt-0">
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <img src="images/search.svg" alt="magnifying glass icon">
         </form>
       </nav>
-    </main>
-    <footer>
-
+    </div>
+  
+  
+    <div class="container-fluid main-section no-padding">
+      <div class="featured-stories container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4 class="darkgray medium-font">FEATURED STORIES</h4>
+            <div class="story no-padding">
+              <img class="img-fluid mx-auto no-padding" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="#">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="container m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+  
+            <div class="m-2 story no-padding mt-5">
+              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <a class="custom-decoration black" href="#">
+                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4 class="darkgray medium-font">TOP STORY</h4>
+            <div class="top-box no-padding">
+              <img class="img-fluid mx-auto no-padding" src="images/placeholder-img.jpg" alt="top article image">
+              <a class="custom-decoration black" href="#">
+                <h5 class="font-weight-bold medium-font pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
+              </a>
+              <h6 class="medium-font darkgray">Lorem ipsum dolor sit amet, fugit prompta epicuri mei at, esse copiosae nam ei. Nam oratio nonumy eligendi an, ei reque mnesarchum ullamcorper vix. Ut aperiam vivendo quo, nostrum convenire ad eam. Consetetur elaboraret mel te, pri facer singulis id.</h6>
+            </div>
+  
+            <div class="multi-box bg-gray border-darkgray">
+              <h5 class="darkgray">Culture & Travel</h5>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-4">
+                  <div class="box">
+                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
+                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
+                      <small>Short description of the article to get you reading!
+                      </small></a>
+                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6 col-md-6 col-sm-4">
+                  <div class="box">
+                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
+                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
+                      <small>Short description of the article to get you reading!
+                      </small></a>
+                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
+                  </div>
+                </div>
+  
+              </div>
+  
+  
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-4 mt-3">
+                  <div class="box">
+                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
+                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
+                      <small>Short description of the article to get you reading!
+                      </small></a>
+                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6 col-md-6 col-sm-4 mt-3">
+                  <div class="box">
+                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
+                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
+                      <small>Short description of the article to get you reading!
+                      </small></a>
+                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="row mt-5">
+              <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+                <div class="more-stories">
+                  <h5 class="medium-font darkgray border-d-g">MORE STORIES</h5>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+  
+                  <div class="story-box no-padding border-d-g">
+                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
+                    <a href="" class="no-padding black custom-decoration">
+                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
+                    </a>
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <h4 class="darkgray medium-font">OPINION</h4>
+            <div class="opinion-box d-flex border-d-g">
+  
+              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
+              <a href="#" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
+              </a>
+            </div>
+            <div class="opinion-box d-flex border-d-g">
+              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
+              <a href="#" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
+              </a>
+            </div>
+            <div class="opinion-box d-flex border-d-g">
+              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
+              <a href="#" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
+              </a>
+            </div>
+            <div class="opinion-box d-flex border-d-g">
+              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
+              <a href="#" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
+              </a>
+            </div>
+            <div class="opinion-box d-flex border-d-g">
+              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
+              <a href="#" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
+              </a>
+            </div>
+            <div class="opinion-box d-flex">
+              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
+              <a href="#" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray">BY AUTHOR'S NAME</span></h5>
+              </a>
+            </div>
+            <br>
+            <h5 class="medium-font gray">LATEST NEWS</h5>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="latest-box d-flex border-d-g">
+              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
+              <a href="" class="no-padding black custom-decoration-02">
+                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
+              </a>
+            </div>
+            <br>
+            <div class="m-2 opinion-big-box mx-auto p-0">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-4">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+  
+            <div class="m-2 opinion-small-box mx-auto">
+              <img class="small-logo" src="images/logo-small.svg" alt="Newsweek logo">
+              <h5 class="font-weight-bold medium-font">SIGN UP FOR OUR <br> NEWSLETTER</h5>
+              <button type="button" class="btn btn-secondary font-weight-bold" name="button">SIGN UP ></button>
+              <br>
+              <small class="font-weight-bold">Update your preferences >></small>
+            </div>
+  
+            <div class="m-2 opinion-big-box p-0 mx-auto">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+  
+            <div class="m-2 opinion-big-box p-0 mx-auto">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+            <div class="m-2 opinion-big-box mx-auto p-0">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+            <div class="m-2 opinion-big-box p-0 mx-auto">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+            <div class="m-2 opinion-big-box mx-auto p-0">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+            <div class="m-2 opinion-big-box mx-auto p-0">
+              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
+              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
+              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
+              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="middle-section px-3">
+  
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="img-fluid" src="images/magazine-cover.jpg" alt="December's newsweek cover">
+            <button class="btn btn-light btn-block font-weight-bold black" type="button" name="button">SEE ALL FEATURES ></button>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="ml-5 wrapper no-padding invisible">
+            <img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek's small logo">
+            <h5 class="medium-font font-weight-bold">IN THE MAGAZINE</h5>
+          </div>
+          <br>
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="ml-5 wrapper no-padding d-none d-sm-none d-md-block">
+            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek small logo">IN THE MAGAZINE</h5>
+          </div>
+          <br>
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="ml-5 wrapper no-padding invisible">
+            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">IN THE MAGAZINE</h5>
+          </div>
+          <br>
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-3">
+          <div class="box-article mx-auto">
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+  
+    <div class="editor-section px-3">
+      <div class="row ">
+        <div class="col-lg-12">
+          <div class="wrapper mx-auto d-flex justify-content-center">
+            <h5 class="medium-font font-weight-bold"><img class="small-logo" src="images/logo-small.svg" alt="Newsweek logo small">EDITOR'S PICK</h5>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="box-article mx-auto">
+            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
+            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
+            <a class="custom-decoration black" href="#">
+              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <br>
+    <br>
+    <div class="container-fluid bottom-section px-3">
+  
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <div class="ml-5 container wrapper no-padding invisible">
+            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">FEATURED SLIDESHOW</h5>
+          </div>
+          <div class="container-fluid bottom-box no-padding">
+            <h5 class="tag-n font-weight-bold">#XX</h5>
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A short description of the photo slideshow that's contained within</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4">
+          <div class="ml-5 container wrapper no-padding">
+            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">FEATURED SLIDESHOW</h5>
+          </div>
+          <div class="container-fluid bottom-box no-padding">
+            <h5 class="tag-n font-weight-bold">#XX</h5>
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A short description of the photo slideshow that's contained within</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4">
+          <div class="wrapper no-padding invisible">
+            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/newsweek-logo.png" alt="">FEATURED SLIDESHOW</h5>
+          </div>
+          <div class="container-fluid bottom-box no-padding">
+            <h5 class="tag-n font-weight-bold">#XX</h5>
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A short description of the photo slideshow that's contained within</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <div class="bottom-box no-padding">
+            <h5 class="tag-n-2 font-weight-bold">#XX</h5>
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A short description of the photo slideshow that's contained within</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4">
+          <div class="bottom-box no-padding">
+            <h5 class="tag-n-2 font-weight-bold">#XX</h5>
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A short description of the photo slideshow that's contained within</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4">
+          <div class="bottom-box no-padding">
+            <h5 class="tag-n-2 font-weight-bold">#XX</h5>
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A short description of the photo slideshow that's contained within</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row border-u-g">
+        <div class="col-lg-12">
+          <h5 class="pl-2 font-weight-bold orange">Category</h5>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="bottom-box no-padding">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="bottom-box no-padding">
+            <ul class="no-padding">
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row border-u-g">
+        <div class="col-lg-12">
+          <h5 class="pl-2 font-weight-bold orange">Category</h5>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box no-padding">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box no-padding">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box no-padding">
+            <ul class="no-padding">
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row border-u-g">
+        <div class="col-lg-12">
+          <h5 class="pl-2 font-weight-bold orange">Category</h5>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box no-padding">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <ul class="no-padding">
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row border-u-g">
+        <div class="col-lg-12">
+          <h5 class="pl-2 font-weight-bold orange">Category</h5>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <ul class="no-padding">
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="row border-u-g">
+        <div class="col-lg-12">
+          <h5 class="pl-2 font-weight-bold orange">Category</h5>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <ul class="no-padding">
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="row border-u-g">
+        <div class="col-lg-12">
+          <h5 class="pl-2 font-weight-bold orange">Category</h5>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
+            <a class="custom-decoration font-weight-bold black" href="#">
+              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-4">
+          <div class="bottom-box">
+            <ul class="no-padding">
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+              <li>
+                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
+                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
+                  </a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="d-flex justify-content-around">
+      <h5 class="font-weight-bold orange mr-5 d-none d-sm-none d-lg-block">SUBSCRIBE</h5>
+      <h5 class="font-weight-bold orange text-left mr-5 d-none d-sm-none d-lg-block">NEWSLETTER</h5>
+      <h5 class="font-weight-bold orange d-none d-lg-none d-sm-block text-left">SUBSCRIBE</h5>
+    </div>
+  
+    <div class="news-wrapper">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 col-sm-12 ml-1 news-div mb-5 p-4 bg-gray">
+          <img class="left-img mr-5" src="images/magazine-cover.jpg" alt="December 2019 newsweek cover">
+          <h5 class="font-weight-bold black">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!<br><span><small>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!<br><button class="btn bg-orange white"
+                  type="button" name="button">SUBSCRIBE ></button>
+              </small></span>
+          </h5>
+        </div>
+        <h5 class="font-weight-bold orange d-none d-lg-none d-sm-block mx-auto">NEWSLETTER</h5>
+        <div class="col-lg-4 col-md-12 col-sm-12 ml-1 mb-5 border-gray">
+          <img class="sign-img mr-5" src="images/starting-5.png" alt="Starting five displayed in a phone">
+          <h5 class="font-weight-bold black">The Starting 5 <br> <span><small>Take back your inbox.<br>Sign up for our <br> newsletter and start <br> making sense of the <br> world around you.</small><br><button class="btn bg-orange white" type="button"
+                name="button">SIGN UP ></button></span> </h5>
+        </div>
+      </div>
+    </div>
+  
+    <footer class="footer-div container-fluid no-padding px-3">
+      <div class="footer-wrapper d-flex justify-content-between border-d-g">
+        <div class="footer-logo d-flex">
+          <img class="d-sm-block footer-news-logo no-padding" src="images/logo-orange.svg" alt="Newsweek logo">
+          <small>©2019 NEWSWEEK</small><br>
+        </div>
+        <div class="footer-icons d-sm-block mr-3">
+          <a class="black" href="#"><img src="images/facebook.svg" alt="Facebook logo"></a>
+          <a class="black" href="#"><img src="images/twitter.svg" alt="Twitter logo"></a>
+          <a class="black" href="#"><img src="images/instagram.svg" alt="Instagram logo"></a>
+          <a class="black" href="#"><img src="images/tumblr.svg" alt="Tumblr logo"></a>
+          <a class="black" href="#"><img src="images/linkedin.svg" alt="LinkedIn logo"></a>
+        </div>
+      </div>
+      <div class="footer-links container-fluid">
+        <div class="footer-link-row d-flex container-fluid no-padding">
+          <h5 class="small-font darkgray mr-2">Editions</h5>
+          <a class="small-font darkgray mr-2" href="#">U.S Edition </a>
+          <a class="small-font darkgray mr-2" href="#">日本 </a>
+          <a class="small-font darkgray mr-2" href="#">한국 </a>
+          <a class="small-font darkgray mr-2" href="#">Pakistan </a>
+          <a class="small-font darkgray mr-2" href="#">Polska </a>
+          <a class="small-font darkgray mr-2" href="#">România </a>
+        </div>
+        <div class="footer-link-row d-flex no-padding">
+          <h5 class="small-font darkgray mr-2">About us</h5>
+          <a class="small-font darkgray mr-2" href="#">U.S Edition</a>
+          <a class="small-font darkgray mr-2" href="#">Corrections</a>
+          <a class="small-font darkgray mr-2" href="#">Contact Us</a>
+          <a class="small-font darkgray mr-2" href="#">Editorial Guidelines</a>
+          <a class="small-font darkgray mr-2" href="#">Advertise</a>
+          <a class="small-font darkgray mr-2" href="#">Copyright</a>
+          <a class="small-font darkgray mr-2" href="#">Terms & Conditions</a>
+          <a class="small-font darkgray mr-2" href="#">Privacy Policy</a>
+          <a class="small-font darkgray mr-2" href="#">Cookie Policy</a>
+          <a class="small-font darkgray mr-2" href="#">Terms of Sale</a>
+          <a class="small-font darkgray mr-2" href="#">Archive</a>
+        </div>
+        <div class="footer-link-row no-padding d-flex">
+          <a class="small-font darkgray mr-2 border-r-g" href="#">Announcements </a>
+          <a class="small-font darkgray mr-2" href="#">U.S Edition</a>
+        </div>
+      </div>
+  
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
