@@ -48,7 +48,7 @@ body {
   margin-right: 25%;
   color: white;
   width: 35%;
-  height: 90%;
+  height: 60px;
 }
 
 .hidden-logo {
@@ -266,5 +266,9 @@ body {
 }
 
 .date {
-  width: 18%;
+  width: 25%;
+}
+
+.header-box {
+  width: 25%;
 }
