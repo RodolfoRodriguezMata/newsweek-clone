@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+.w-98 {
+  width: 98%;
+}
+
 .big-font {
   font-size: 1.7rem;
 }

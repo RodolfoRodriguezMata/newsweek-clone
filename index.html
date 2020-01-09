@@ -14,7 +14,7 @@
       <img src="images/logo.svg" class="img-fluid hidden-logo" alt="Newsweek logo">
       <a href="#" class="white font-weight-bold small-font flex-fill text-right">Sign In </a>
       <button type="button" class="btn btn-light orange btn-sm mx-2">Subscribe ></button>
-      <img src="images/menu.svg">  
+      <img src="images/menu.svg" alt="Hamburguer icon">  
     </nav>
   
     <div class="d-none d-lg-block">
@@ -23,10 +23,11 @@
         <img src="images/logo.svg" class="img-fluid main-logo" alt="Newsweek logo">
         <div class="d-flex justify-content-end align-items-end header-box">
           <a href="#" class="white font-weight-bold small-font p-1 w-100">Sign In</a>
-          <button type="button" class="btn btn-light orange btn-sm w-100">Subscribe ></button>
+          <button type="button" class="btn btn-light orange btn-sm w-75 h-50">Subscribe ></button>
         </div>
       </div>
-      <nav class="hidden-xs collapse navbar-collapse navbar-expand-lg navbar-light d-flex no-padding mt-0">
+      <nav class="hidden-xs collapse navbar-collapse navbar-expand-lg navbar-light d-flex no-padding mt-0 justify-content-around">
+        <a href="#" class="nav-link font-weight-bold black flex-fill ml-3">Category</a>
         <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
         <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
         <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
@@ -36,8 +37,7 @@
         <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
         <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
         <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 w-100">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <img src="images/search.svg" alt="magnifying glass icon">
         </form>
@@ -46,10 +46,10 @@
   
   
     <div class="d-flex flex-column">
-      <div class="d-flex flex-column">
-        <div class="row d-flex">
+      <div class="d-flex flex-column container w-100">
+        <div class="row d-flex w-98 mx-auto mt-md-5">
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column">
-            <h4 class="darkgray medium-font mt-5">FEATURED STORIES</h4>
+            <h4 class="darkgray medium-font mt-l-5 mt-md-3 mt-5">FEATURED STORIES</h4>
             <div class="d-flex flex-column mt-3">
               <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
               <a class="custom-decoration black" href="#">
@@ -130,7 +130,7 @@
             </div>
           </div>
   
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-md-3">
             <h4 class="darkgray medium-font">TOP STORY</h4>
             <div class="d-flex flex-column">
               <img class="img-fluid" src="images/placeholder-img.jpg" alt="top article image">
@@ -788,7 +788,7 @@
   
         <div class="col-md-4 col-lg-4">
           <div class="wrapper no-padding invisible">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/newsweek-logo.png" alt="">FEATURED SLIDESHOW</h5>
+            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">FEATURED SLIDESHOW</h5>
           </div>
           <div class="container-fluid bottom-box no-padding">
             <h5 class="tag-n font-weight-bold">#XX</h5>
@@ -1131,12 +1131,13 @@
     </div>
   
     <footer class="footer-div container-fluid no-padding px-3">
-      <div class="footer-wrapper d-flex justify-content-between border-d-g col">
-        <div class="footer-logo d-flex row">
-          <img class=" footer-news-logo no-padding" src="images/logo-orange.svg" alt="Newsweek logo">
-          <small>©2019 NEWSWEEK</small><br>
+      <div class="d-flex flex-md-row border-d-g col">
+        <div class="footer-logo d-flex flex-sm-column row">
+          <img class="footer-news-logo no-padding col-sm-12 col-md-9" src="images/logo-orange.svg" alt="Newsweek logo">
+          <small class="col-sm-12 col-md-3">©2019 NEWSWEEK</small>
         </div>
-        <div class="footer-icons d-flex mr-3 mr-sm-1 row">
+        
+        <div class="footer-icons d-flex mr-3 mr-sm-1 align-self-end">
           <a class="black" href="#"><img src="images/facebook.svg" alt="Facebook logo"></a>
           <a class="black" href="#"><img src="images/twitter.svg" alt="Twitter logo"></a>
           <a class="black" href="#"><img src="images/instagram.svg" alt="Instagram logo"></a>
