@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
-  <body>
+  <body class="container-fluid">
 
     <nav class="navbar bg-orange d-flex d-none d-md-flex d-lg-none fixed-top">
       <img src="images/logo.svg" class="img-fluid hidden-logo" alt="Newsweek logo">
@@ -23,7 +23,7 @@
         <img src="images/logo.svg" class="img-fluid main-logo" alt="Newsweek logo">
         <div class="d-flex justify-content-end align-items-end header-box">
           <a href="#" class="white font-weight-bold small-font p-1 w-100">Sign In</a>
-          <button type="button" class="btn btn-light orange btn-sm w-75 h-50">Subscribe ></button>
+          <button type="button" class="btn btn-light orange btn-sm d-flex w-100 h-50">Subscribe ></button>
         </div>
       </div>
       <nav class="hidden-xs collapse navbar-collapse navbar-expand-lg navbar-light d-flex no-padding mt-0 justify-content-around">
@@ -45,8 +45,8 @@
     </div>
   
   
-    <div class="d-flex flex-column">
-      <div class="d-flex flex-column container w-100">
+    <div class="d-sm-block d-flex flex-column container h-100 small-fix">
+      <div class="d-flex flex-column container-fluid w-100 h-100">
         <div class="row d-flex w-98 mx-auto mt-md-5">
           <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column">
             <h4 class="darkgray medium-font mt-l-5 mt-md-3 mt-5">FEATURED STORIES</h4>
@@ -189,9 +189,9 @@
               </div>
             </div>
   
-            <div class="row mt-5">
+            <div class="container-fluid mt-5 small-fix">
               <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-                <div class="more-stories">
+                <div class="d-flex flex-column w-100">
                   <h5 class="medium-font darkgray border-d-g">MORE STORIES</h5>
                   <div class="story-box no-padding border-d-g">
                     <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
@@ -199,7 +199,6 @@
                       <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
                     </a>
                   </div>
-                  <br>
                   <div class="story-box no-padding border-d-g">
                     <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
                     <a href="" class="no-padding black custom-decoration">
@@ -513,10 +512,10 @@
     </div>
     <br>
     <br>
-    <div class="middle-section px-3">
+    <div class="middle-section container-fluid px-3 small-fix">
   
-      <div class="row">
-        <div class="col-lg-3 col-md-3">
+      <div class="row container-fluid">
+        <div class="col-lg-3 col-md-3 small-fix">
           <div class="box-article mx-auto">
             <img class="img-fluid" src="images/magazine-cover.jpg" alt="December's newsweek cover">
             <button class="btn btn-light btn-block font-weight-bold black" type="button" name="button">SEE ALL FEATURES ></button>
@@ -568,7 +567,7 @@
       </div>
       <br>
       <br>
-      <div class="row">
+      <div class="container-fluid">
         <div class="col-lg-3 col-md-3">
           <div class="box-article mx-auto">
             <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
@@ -611,7 +610,7 @@
       </div>
       <br>
       <br>
-      <div class="row">
+      <div class="container-fluid">
         <div class="col-lg-3 col-md-3">
           <div class="box-article mx-auto">
             <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
@@ -656,8 +655,8 @@
     <br>
     <br>
   
-    <div class="editor-section px-3">
-      <div class="row ">
+    <div class="editor-section px-3 small-fix">
+      <div class="container-fluid">
         <div class="col-lg-12">
           <div class="wrapper mx-auto d-flex justify-content-center">
             <h5 class="medium-font font-weight-bold"><img class="small-logo" src="images/logo-small.svg" alt="Newsweek logo small">EDITOR'S PICK</h5>
@@ -757,7 +756,7 @@
   
     <br>
     <br>
-    <div class="container-fluid bottom-section px-3">
+    <div class="container-fluid bottom-section px-3 small-fix">
   
       <div class="row">
         <div class="col-md-4 col-lg-4">
@@ -1106,13 +1105,13 @@
   
     </div>
   
-    <div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-around small-fix">
       <h5 class="font-weight-bold orange mr-5 d-none d-sm-none d-lg-block">SUBSCRIBE</h5>
       <h5 class="font-weight-bold orange text-left mr-5 d-none d-sm-none d-lg-block">NEWSLETTER</h5>
       <h5 class="font-weight-bold orange d-none d-lg-none d-sm-block text-left">SUBSCRIBE</h5>
     </div>
   
-    <div class="news-wrapper">
+    <div class="news-wrapper small-fix mr-sm-2">
       <div class="row">
         <div class="col-lg-7 col-md-12 col-sm-12 ml-1 news-div mb-5 p-4 bg-gray">
           <img class="left-img mr-5" src="images/magazine-cover.jpg" alt="December 2019 newsweek cover">
@@ -1130,14 +1129,14 @@
       </div>
     </div>
   
-    <footer class="footer-div container-fluid no-padding px-3">
-      <div class="d-flex flex-md-row border-d-g col">
+    <footer class="footer-div container-fluid no-padding px-3 small-fix">
+      <div class="d-flex flex-md-row border-d-g col justify-content-md-between w-100">
         <div class="footer-logo d-flex flex-sm-column row">
-          <img class="footer-news-logo no-padding col-sm-12 col-md-9" src="images/logo-orange.svg" alt="Newsweek logo">
-          <small class="col-sm-12 col-md-3">©2019 NEWSWEEK</small>
+          <img class="footer-news-logo no-padding col-sm-12" src="images/logo-orange.svg" alt="Newsweek logo">
+          <small class="col-sm-12 mt-sm-0">©2019 NEWSWEEK</small>
         </div>
         
-        <div class="footer-icons d-flex mr-3 mr-sm-1 align-self-end">
+        <div class="footer-icons d-flex mr-md-3 mr-sm-0">
           <a class="black" href="#"><img src="images/facebook.svg" alt="Facebook logo"></a>
           <a class="black" href="#"><img src="images/twitter.svg" alt="Twitter logo"></a>
           <a class="black" href="#"><img src="images/instagram.svg" alt="Instagram logo"></a>
