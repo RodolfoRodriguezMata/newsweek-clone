@@ -8,1175 +8,832 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
-  <body class="container-fluid">
-
-    <nav class="navbar bg-orange d-flex d-none d-md-flex d-lg-none fixed-top">
-      <img src="images/logo.svg" class="img-fluid hidden-logo" alt="Newsweek logo">
-      <a href="#" class="white font-weight-bold small-font flex-fill text-right">Sign In </a>
-      <button type="button" class="btn btn-light orange btn-sm mx-2">Subscribe ></button>
-      <img src="images/menu.svg" alt="Hamburguer icon">  
-    </nav>
-  
-    <div class="d-none d-lg-block">
-      <div class="jumbotron d-flex justify-content-between header bg-orange p-1 mb-1">
-        <h6 class="white date d-flex align-items-end pl-1">Current Date.</h6>
-        <img src="images/logo.svg" class="img-fluid main-logo" alt="Newsweek logo">
-        <div class="d-flex justify-content-end align-items-end header-box">
-          <a href="#" class="white font-weight-bold small-font p-1 w-100">Sign In</a>
-          <button type="button" class="btn btn-light orange btn-sm d-flex w-100 h-50">Subscribe ></button>
-        </div>
-      </div>
-      <nav class="hidden-xs collapse navbar-collapse navbar-expand-lg navbar-light d-flex no-padding mt-0 justify-content-around">
-        <a href="#" class="nav-link font-weight-bold black flex-fill ml-3">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <a href="#" class="nav-link font-weight-bold black flex-fill">Category</a>
-        <form class="form-inline my-2 my-lg-0 w-100">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <img src="images/search.svg" alt="magnifying glass icon">
-        </form>
-      </nav>
-    </div>
-  
-  
-    <div class="d-sm-block d-flex flex-column container h-100 small-fix">
-      <div class="d-flex flex-column container-fluid w-100 h-100">
-        <div class="row d-flex w-98 mx-auto mt-md-5">
-          <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column">
-            <h4 class="darkgray medium-font mt-l-5 mt-md-3 mt-5">FEATURED STORIES</h4>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="#">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+  <body class="bg-grey">
+    <div class="bg-white container-xl px-0 mx-auto">
+      <header class="d-flex flex-column bg-gen-red header-position justify-content-center">
+        <div class="px-md-3 d-flex justify-content-between align-items-center">
+          <div class="d-none d-lg-block text-white align-self-end pb-3 mb-2"><time datetime="2020-01-01">Wed, Jan 01, 2020</time></div>
+          <div class="logo py-lg-4 pl-3 pl-lg-0">
+            <img src="images/logo.svg" alt="News Week logo">
+          </div>
+          <div class="d-flex py-lg-3 align-self-lg-end align-items-center">
+            <div class="d-flex header-links">
+              <a href="#" class="w-content font-weight-bold text-uppercase text-white py-0 px-1 px-sm-2 py-sm-1">sign in</a>
+              <a href="#" class="w-content font-weight-bold text-uppercase bg-white text-gen-red py-0 px-1 px-sm-2 py-sm-1">subscribe <img src="images/chevron-right.png" alt="arrow pointing to right" class="subscribe-chevron"></a>
             </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="#">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
-            </div>
-  
-            <div class="d-flex flex-column mt-3">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
-              <a class="custom-decoration black" href="#">
-                <h5 class="font-weight-bold medium-font black pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <small class="darkgray">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</small>
+            <div class="d-lg-none my-2 mx-2 d-flex justify-content-center">
+              <img class="nav-menu w-25p" src="images/menu-icon.svg" alt="three vertically stacked lines represent menu icon">
             </div>
           </div>
-  
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-md-3">
-            <h4 class="darkgray medium-font">TOP STORY</h4>
-            <div class="d-flex flex-column">
-              <img class="img-fluid" src="images/placeholder-img.jpg" alt="top article image">
-              <a class="custom-decoration black" href="#">
-                <h5 class="font-weight-bold medium-font pt-2">Title for the article that arouses the interest of the reader so that you read more.</h5>
-              </a>
-              <h6 class="medium-font darkgray">Lorem ipsum dolor sit amet, fugit prompta epicuri mei at, esse copiosae nam ei. Nam oratio nonumy eligendi an, ei reque mnesarchum ullamcorper vix. Ut aperiam vivendo quo, nostrum convenire ad eam. Consetetur elaboraret mel te, pri facer singulis id.</h6>
+        </div>
+        <nav class="position-relative d-none d-lg-block">
+          <ul class="py-3 border-bottom bg-white d-flex list-group list-group-horizontal justify-content-center">
+            <li class="p-0 border-right border-top-0 border-bottom-0 border-left-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-right border-top-0 border-bottom-0 border-right-0 d-flex justify-content-center flex-fill"><a href="#" class="text-black font-weight-bold gen-red-hover-line-none">Category</a></li>
+            <li class="p-0 border-0 d-flex justify-content-start search-container flex-fill"><input type="text" class="w-50 search border-0" placeholder="search"></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="pt-3 container-fluid d-flex flex-wrap">
+        <div  class="d-flex flex-wrap colm2 h-content order-md-1">
+          <section class="w-100 top-story">
+            <h6 class="font-weight-bold text-uppercase section-heading">top story</h6>
+            <div class="position-relative">
+              <img class="w-100" src="images/placeholder-img.jpg" alt="Topographical map as a placeholder">
+              <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">category</p>
             </div>
-  
-            <div class="multi-box bg-gray border-darkgray">
-              <h5 class="darkgray">Culture & Travel</h5>
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-4">
-                  <div class="box">
-                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
-                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
-                      <small>Short description of the article to get you reading!
-                      </small></a>
-                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
-                  </div>
-                </div>
-  
-                <div class="col-lg-6 col-md-6 col-sm-4">
-                  <div class="box">
-                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
-                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
-                      <small>Short description of the article to get you reading!
-                      </small></a>
-                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
-                  </div>
-                </div>
-  
+            <div>
+              <h5><a href="#" class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</a></h5>
+              <p class="small grey">Lorem ipsum dolor sit amet, fugit prompta epicuri mei at, esse copiosae nam ei. Nam oratio nonumy eligendi an, ei reque mnesarchum ullamcorper vix. Ut aperiam vivendo quo, nostrum convenire ad eam. Consetetur elaboraret mel te, pri facer singulis id.</p>
+            </div>
+          </section>
+          <section class="container-fluid mx-0 px-3 more-stories">
+            <div class="row border-bottom py-2">
+              <div class="col-12"><h6 class="font-weight-bold text-uppercase section-heading">more stories</h6></div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
               </div>
-  
-  
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-4 mt-3">
-                  <div class="box">
-                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
-                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
-                      <small>Short description of the article to get you reading!
-                      </small></a>
-                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div> 
+            <div class="row border-bottom py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div>
+            <div class="row py-3">
+              <div class="col-12">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="float-left mr-3 mb-1">
+                <h6 class="font-weight-bold text-black gen-red-underline hover-black">Slightly ambiguous title to catch the eye and show more stories are published.</h6>
+                <p class="small grey">What the article is actually about that is also ambiguous.</p>
+              </div>
+            </div>
+          </section>
+          <section class="container-fluid bg-grey travel px-0">
+            <div class="row mx-0 pt-2 mx-md-n2">
+              <div class="col-12 px-2 px-md-3">
+                <h6 class="font-weight-bold text-secondary text-uppercase section-heading">culture & travel</h6>
+              </div>
+              <div class="col-12 col-md-6 mx-0 pb-4 px-0 px-md-2">
+                <div class="row mx-0 w-100">
+                  <div class="col px-0"><img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100"></div>
+                </div>
+                <div class="row mx-0 pt-2">
+                  <div class="col px-md-2">
+                    <h5>Short and snappy article title.</h5>
                   </div>
                 </div>
-  
-                <div class="col-lg-6 col-md-6 col-sm-4 mt-3">
-                  <div class="box">
-                    <img class="no-padding border-darkgray" src="images/placeholder-img.jpg" alt="smaller place-holder image">
-                    <a class="font-weight-bold black medium-font custom-decoration-02" href="#">Short and snappy article title <br>
-                      <small>Short description of the article to get you reading!
-                      </small></a>
-                    <button type="button" class="btn btn-light btn-sm" name="button">Category</button>
+                <div class="row mx-0">
+                  <div class="col px-md-2">
+                    <p class="light-grey">Short description of the article to get you reading!</p>
+                  </div>
+                </div>
+                <div class="row mx-0">
+                  <div class="label px-1 ml-3 ml-md-2 small">
+                    <p class="mb-0">Section</p>
                   </div>
                 </div>
               </div>
-            </div>
-  
-            <div class="container-fluid mt-5 small-fix">
-              <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
-                <div class="d-flex flex-column w-100">
-                  <h5 class="medium-font darkgray border-d-g">MORE STORIES</h5>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+              <div class="col-12 col-md-6 mx-0 pb-4 px-0 px-md-2">
+                <div class="row mx-0 w-100">
+                  <div class="col px-0"><img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100"></div>
+                </div>
+                <div class="row mx-0 pt-2">
+                  <div class="col px-md-2">
+                    <h5>Short and snappy article title.</h5>
                   </div>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+                <div class="row mx-0">
+                  <div class="col px-md-2">
+                    <p class="light-grey">Short description of the article to get you reading!</p>
                   </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+                <div class="row mx-0">
+                  <div class="label px-1 ml-3 ml-md-2 small">
+                    <p class="mb-0">Section</p>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mx-0 pb-4 px-0 px-md-2">
+                <div class="row mx-0 w-100">
+                  <div class="col px-0"><img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100"></div>
+                </div>
+                <div class="row mx-0 pt-2">
+                  <div class="col px-md-2">
+                    <h5>Short and snappy article title.</h5>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+                <div class="row mx-0">
+                  <div class="col px-md-2">
+                    <p class="light-grey">Short description of the article to get you reading!</p>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+                <div class="row mx-0">
+                  <div class="label px-1 ml-3 ml-md-2 small">
+                    <p class="mb-0">Section</p>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mx-0 pb-4 px-0 px-md-2">
+                <div class="row mx-0 w-100">
+                  <div class="col px-0"><img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100"></div>
+                </div>
+                <div class="row mx-0 pt-2">
+                  <div class="col px-md-2">
+                    <h5>Short and snappy article title.</h5>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+                <div class="row mx-0">
+                  <div class="col px-md-2">
+                    <p class="light-grey">Short description of the article to get you reading!</p>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
+                </div>
+                <div class="row mx-0">
+                  <div class="label px-1 ml-3 ml-md-2 small">
+                    <p class="mb-0">Section</p>
                   </div>
-                  <br>
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
-  
-                  <div class="story-box no-padding border-d-g">
-                    <img class="story-img" src="images/placeholder-img.jpg" alt="more stories place-holder image">
-                    <a href="" class="no-padding black custom-decoration">
-                      <h5 class="text-left small-font font-weight-bold">Slightly ambiguous title to catch the eye and show more stories are published<br><span><small>What the article is actually about that is also ambiguous.</small></span></h5>
-                    </a>
-                  </div>
-                  <br>
                 </div>
               </div>
             </div>
+          </section>
+        </div>
+        <section class="featured-stories colm1">
+          <h6 class="font-weight-bold text-uppercase section-heading">featured stories</h6>
+          <div class="position-relative">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">category</p>
           </div>
-  
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <h4 class="darkgray medium-font">OPINION</h4>
-            <div class="opinion-box d-flex border-d-g">
-  
-              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
-              <a href="#" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
-              </a>
+          <div>
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">category</p>
+          </div>
+          <div>
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">category</p>
+          </div>
+          <div>
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">category</p>
+          </div>
+          <div>
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative sponsored-insight">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+          </div>
+          <div class="info p-3 border border-top-0">
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative sponsored-insight">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+          </div>
+          <div class="info p-3 border border-top-0">
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative sponsored-insight">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+          </div>
+          <div class="info p-3 border border-top-0">
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative sponsored-insight">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+          </div>
+          <div class="info p-3 border border-top-0">
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+          <div class="position-relative sponsored-insight">
+            <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+            <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+          </div>
+          <div class="info p-3 border border-top-0">
+            <h5 class="font-weight-bold text-black gen-red-underline hover-black">Title for the article that arouses the interest of the reader so that you read more.</h5>
+            <p class="small">A fragment of the mentioned article that provides a small insight not only into the article's line-of-thought, but into what you can learn or understand better. Truly enlightening.</p>
+          </div>
+        </section>
+        <div class="colm3 order-md-1">
+          <section>
+              <h6 class="font-weight-bold text-uppercase section-heading">opinion</h6>
+              <div class="d-flex border-bottom pb-3 opinion">
+                <img src="images/author-img.png" alt="Outline of a person to represent the author" class="pr-2 rounded-circle author-img">
+                <div>
+                  <h6><a href="#" class="d-inline-block font-weight-bold text-black gen-red-hover-line-none">What I, as an author have to tell you! Come and read more</a></h6>
+                  <span class="text-uppercase font-weight-bold small text-secondary">By Author's Name</span>
+                </div>
+              </div>
+              <div class="d-flex border-bottom pb-3 opinion">
+                <img src="images/author-img.png" alt="Outline of a person to represent the author" class="pr-2 rounded-circle author-img">
+                <div>
+                  <h6><a href="#" class="d-inline-block font-weight-bold text-black gen-red-hover-line-none">What I, as an author have to tell you! Come and read more</a></h6>
+                  <span class="text-uppercase font-weight-bold small text-secondary">By Author's Name</span>
+                </div>
+              </div>
+              <div class="d-flex border-bottom pb-3 opinion">
+                <img src="images/author-img.png" alt="Outline of a person to represent the author" class="pr-2 rounded-circle author-img">
+                <div>
+                  <h6><a href="#" class="d-inline-block font-weight-bold text-black gen-red-hover-line-none">What I, as an author have to tell you! Come and read more</a></h6>
+                  <span class="text-uppercase font-weight-bold small text-secondary">By Author's Name</span>
+                </div>
+              </div>
+              <div class="d-flex border-bottom pb-3 opinion">
+                <img src="images/author-img.png" alt="Outline of a person to represent the author" class="pr-2 rounded-circle author-img">
+                <div>
+                  <h6><a href="#" class="d-inline-block font-weight-bold text-black gen-red-hover-line-none">What I, as an author have to tell you! Come and read more</a></h6>
+                  <span class="text-uppercase font-weight-bold small text-secondary">By Author's Name</span>
+                </div>
+              </div>
+              <div class="d-flex border-bottom pb-3 opinion">
+                <img src="images/author-img.png" alt="Outline of a person to represent the author" class="pr-2 rounded-circle author-img">
+                <div>
+                  <h6><a href="#" class="d-inline-block font-weight-bold text-black gen-red-hover-line-none">What I, as an author have to tell you! Come and read more</a></h6>
+                  <span class="text-uppercase font-weight-bold small text-secondary">By Author's Name</span>
+                </div>
+              </div>
+              <div class="d-flex border-bottom pb-3 opinion">
+                <img src="images/author-img.png" alt="Outline of a person to represent the author" class="pr-2 rounded-circle author-img">
+                <div>
+                  <h6><a href="#" class="d-inline-block font-weight-bold text-black gen-red-hover-line-none">What I, as an author have to tell you! Come and read more</a></h6>
+                  <span class="text-uppercase font-weight-bold small text-secondary">By Author's Name</span>
+                </div>
+              </div>
+          </section>
+          <section class="mt-3">
+            <h6 class="font-weight-bold text-uppercase section-heading">latest news</h6>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <div class="opinion-box d-flex border-d-g">
-              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
-              <a href="#" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
-              </a>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <div class="opinion-box d-flex border-d-g">
-              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
-              <a href="#" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
-              </a>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <div class="opinion-box d-flex border-d-g">
-              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
-              <a href="#" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
-              </a>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <div class="opinion-box d-flex border-d-g">
-              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
-              <a href="#" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray font-weight-bold">BY AUTHOR'S NAME</span></h5>
-              </a>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <div class="opinion-box d-flex">
-              <img class="opinion-avatar" src="images/author-img.png" alt="Outline of a person to represent the author">
-              <a href="#" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold medium-font">What I, as an author have to tell you! Come and read more <br> <span class="small-font gray">BY AUTHOR'S NAME</span></h5>
-              </a>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <br>
-            <h5 class="medium-font gray">LATEST NEWS</h5>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
+            <div class="d-flex my-2 border-bottom pb-2">
+              <img src="images/placeholder-img.jpg" alt="Latest news place-holder image" class="l-news-image mr-3">
+              <h6><a href="#" class="font-weight-bold text-black gen-red-hover-line-none">Descriptive title of recent events, get informed!</a></h6>
             </div>
-            <br>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
+          </section>
+          <section class="basis-1 mw-37 mw-lg-100 mx-auto mx-lg-0">
+              <div class="position-relative sponsored-insight">
+                <img src="images/placeholder-img.jpg" alt="Big place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+              </div>
+              <div class="info p-3 border border-top-0">
+                <h5 class="font-weight-bold text-black gen-red-underline hover-black">Short and to-the-point title</h5>
+                <p class="small">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</p>
+              </div>
+              <div class="bg-grey border p-3 mb-3 mx-auto">
+                  <div class="d-flex">
+                    <img class="small-logo" src="images/logo-small.svg" alt="Newsweek logo">
+                    <h6 class="d-inline font-weight-bold text-dark text-uppercase ml-2">Sign up for our Newsletter</h6>
+                  </div>
+                  <p class="bg-secondary w-content p-2"><a href="#" class="text-white text-uppercase font-weight-bold">sign up
+                    <img src="images/sign-chevron.svg" alt="arrow svg facing right">
+                  </a></p>
+                  <p class="font-weight-bold">Update your preferences »</p>
+                </div>
+              <div class="position-relative sponsored-insight">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+              </div>
+              <div class="info p-3 border border-top-0">
+                <h5 class="font-weight-bold text-black gen-red-underline hover-black">Short and to-the-point title</h5>
+                <p class="small">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</p>
+              </div>
+              <div class="position-relative sponsored-insight">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+              </div>
+              <div class="info p-3 border border-top-0">
+                <h5 class="font-weight-bold text-black gen-red-underline hover-black">Short and to-the-point title</h5>
+                <p class="small">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</p>
+              </div>
+              <div class="position-relative sponsored-insight">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+              </div>
+              <div class="info p-3 border border-top-0">
+                <h5 class="font-weight-bold text-black gen-red-underline hover-black">Short and to-the-point title</h5>
+                <p class="small">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</p>
+              </div>
+              <div class="position-relative sponsored-insight">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+              </div>
+              <div class="info p-3 border border-top-0">
+                <h5 class="font-weight-bold text-black gen-red-underline hover-black">Short and to-the-point title</h5>
+                <p class="small">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</p>
+              </div>
+              <div class="position-relative sponsored-insight">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">sponsored insight</p>
+              </div>
+              <div class="info p-3 border border-top-0">
+                <h5 class="font-weight-bold text-black gen-red-underline hover-black">Short and to-the-point title</h5>
+                <p class="small">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</p>
+              </div>
+          </section>
+        </div>
+        <section class="articles-section order-md-1 w-100 px-md-3">
+          <div class="d-md-flex">
+            <section class="align-self-end pb-4 w-md-25 w-100 pr-md-4">
+              <div class="position-relative">
+                <img src="images/magazine-cover.jpg" alt="December's newsweek cover" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red p-2 m-0">december issue</p>
+              </div>
+              <div class="bg-grey">
+                <h5 class="font-weight-bold text-black text-uppercase issue-20 text-center p-2">See All Features <img src="images/black-chevron.svg" alt=""></h5>
+              </div>
+            </section>
+            <div class="w-md-75 d-flex flex-wrap">
+              <div class="d-flex justify-content-center align-items-center border-bottom w-100 mb-3">
+                <img class="small-logo mr-3" src="images/logo-small.svg" alt="Newsweek logo">
+                <h6 class="text-uppercase text-dark font-weight-bold align-self-center"> in the magazine</h6>
+              </div>
+              <article class="w-33 w-100 pr-md-3">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+                <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+              </article>
+              <article class="w-33 w-100 pr-md-3">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+                <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+              </article>
+              <article class="w-33 w-100 pr-md-3">
+                <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+                <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+                <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+              </article>
             </div>
-            <br>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
+          </div>
+          <div class="d-flex flex-wrap w-100 mx-md-n3">
+            <article class="w-md-25 w-100 px-md-3">
+              <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+              <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+              <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+            </article>
+            <article class="w-md-25 w-100 px-md-3">
+              <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+              <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+              <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+            </article>
+            <article class="w-md-25 w-100 px-md-3">
+              <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+              <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+              <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+            </article>
+            <article class="w-md-25 w-100 px-md-3">
+              <img src="images/placeholder-img.jpg" alt="Topographical map as a placeholder" class="w-100">
+              <div class="my-3"><span class="bg-gen-red text-white text-uppercase font-weight-bold px-2 py-1">source</span><a href="#" class="font-weight-bold text-gen-red text-uppercase p-2">category</a></div>
+              <h6 class="font-weight-bold text-black">A lengthier title that describes a posture.</h6>
+            </article>
+          </div>
+        </section>
+        <section class="articles-section basis-1 order-md-1 w-100 px-md-3">
+          <div class="d-flex justify-content-center border-bottom mb-3">
+            <img class="small-logo mr-3" src="images/logo-small.svg" alt="Newsweek logo">
+            <h5 class="text-uppercase text-dark font-weight-bold align-self-center">editor's picks</h5>
+          </div>
+          <div class="d-flex flex-wrap mx-md-n2">
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+            <article class="w-l-25 w-md-50 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Magazine place-holder image" class="w-100">
+                <p class="image-label d-inline-block position-absolute text-uppercase font-weight-bold text-gen-red py-1 px-2 m-0">section</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">An even lengthier title, to provide more contrast for the page's layout.</h5>
+              <p>Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam.</p>
+            </article>
+          </div>
+        </section>
+        <section class="articles-section slides basis-1 order-md-1 px-md-3 w-100 mx-auto">
+          <div class="d-flex justify-content-center border-bottom mb-3">
+            <img class="small-logo n-logo mr-3 mb-2" src="images/logo-small.svg" alt="Newsweek logo">
+            <h5 class="text-uppercase text-dark font-weight-bold align-self-center">featured slideshow</h5>
+          </div>
+          <div class="d-flex flex-wrap mx-md-n2">
+            <article class="w-100 w-33 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Slideshow place-holder" class="w-100">
+                <p class="image-label d-inline-block position-absolute font-weight-bold text-gen-red m-0">XX</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">A short description of the photo slideshow that's contained within</h5>
+            </article>
+            <article class="w-100 w-33 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Slideshow place-holder" class="w-100">
+                <p class="image-label d-inline-block position-absolute font-weight-bold text-gen-red m-0">XX</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">A short description of the photo slideshow that's contained within</h5>
+            </article>
+            <article class="w-100 w-33 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Slideshow place-holder" class="w-100">
+                <p class="image-label d-inline-block position-absolute font-weight-bold text-gen-red m-0">XX</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">A short description of the photo slideshow that's contained within</h5>
+            </article>
+            <article class="w-100 w-33 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Slideshow place-holder" class="w-100">
+                <p class="image-label d-inline-block position-absolute font-weight-bold text-gen-red m-0">XX</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">A short description of the photo slideshow that's contained within</h5>
+            </article>
+            <article class="w-100 w-33 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Slideshow place-holder" class="w-100">
+                <p class="image-label d-inline-block position-absolute font-weight-bold text-gen-red m-0">XX</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">A short description of the photo slideshow that's contained within</h5>
+            </article>
+            <article class="w-100 w-33 px-md-2">
+              <div class="position-relative">
+                <img src="images/placeholder-img.jpg" alt="Slideshow place-holder" class="w-100">
+                <p class="image-label d-inline-block position-absolute font-weight-bold text-gen-red m-0">XX</p>
+              </div>
+              <h5 class="font-weight-bold text-black pt-3">A short description of the photo slideshow that's contained within</h5>
+            </article>
+          </div>
+        </section>
+        <section class="order-md-1 row px-md-3 pb-2 mb-3 mx-0">
+          <h4 class="px-0 col-12 text-gen-red font-weight-bold border-top pt-4">Category</h4>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <div class="px-0 col-12 col-md-4 px-md-3">
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+          </div>
+        </section>
+        <section class="order-md-1 row px-md-3 pb-2 mb-3 mx-0">
+          <h4 class="px-0 col-12 text-gen-red font-weight-bold border-top pt-4">Category</h4>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <div class="px-0 col-12 col-md-4 px-md-3">
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+          </div>
+        </section>
+        <section class="order-md-1 row px-md-3 pb-2 mb-3 mx-0">
+          <h4 class="px-0 col-12 text-gen-red font-weight-bold border-top pt-4">Category</h4>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <div class="px-0 col-12 col-md-4 px-md-3">
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+          </div>
+        </section>
+        <section class="order-md-1 row px-md-3 pb-2 mb-3 mx-0">
+          <h4 class="px-0 col-12 text-gen-red font-weight-bold border-top pt-4">Category</h4>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <div class="px-0 col-12 col-md-4 px-md-3">
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+          </div>
+        </section>
+        <section class="order-md-1 row px-md-3 pb-2 mb-3 mx-0">
+          <h4 class="px-0 col-12 text-gen-red font-weight-bold border-top pt-4">Category</h4>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <div class="px-0 col-12 col-md-4 px-md-3">
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+          </div>
+        </section>
+        <section class="order-md-1 row px-md-3 pb-2 mb-3 mx-0">
+          <h4 class="px-0 col-12 text-gen-red font-weight-bold border-top pt-4">Category</h4>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <article class="px-0 col-12 col-md-4 pr-md-3">
+            <img src="images/placeholder-img.jpg" alt="place-holder image" class="w-100">
+            <h5 class="py-3 font-weight-bold">A long article title with a certain amount of descriptive quality to take space.</h5>
+          </article>
+          <div class="px-0 col-12 col-md-4 px-md-3">
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+            <article class="pb-3 border-bottom row">
+              <img src="images/placeholder-img.jpg" alt="place-holder image" class="col-4">
+              <h6 class="font-weight-bold pl-2 col-8">A long article title with a certain amount of descriptive quality to take space.</h6>
+            </article>
+          </div>
+        </section>
+      </main>
+      <div class="row border-top mx-0 px-3">
+        <div class="flex-wrap col-12 col-lg-8 pt-40 pr-3">
+          <h6 class="text-uppercase font-weight-bold text-gen-red">subscribe</h6>
+          <div class="justify-content-center justify-content-md-between flex-wrap d-flex bg-grey p-3 text-center">
+            <div class="w-content position-relative subscribe-img d-flex sub-image">
+              <img src="images/magazine-cover.jpg" alt="Newsweek cover" class="sub-img-height">
+              <img src="images/magazine-cover.jpg" alt="Newsweek cover" class="position-absolute sub-img-height">
             </div>
-            <br>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
+            <div class="col-12 col-md-8 col-lg-7 col-xl-8 text-center text-md-left">
+              <h5 class="font-weight-bold text-black mt-4 pt-3">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+              <p>All Access + Weekly Delivery. <br>
+                Choose A Membership That's Perfect for You!</p>
+              <p class="d-md-inline-block text-uppercase bg-gen-red text-white font-weight-bold w-content p-2 mx-auto">subscribe<img src="images/sign-chevron.svg" alt="arrow facing right" class="ml-2"></p>
             </div>
-            <br>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
-            </div>
-            <br>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
-            </div>
-            <br>
-            <div class="latest-box d-flex border-d-g">
-              <img class="story-img" src="images/placeholder-img.jpg" alt="Latest news place-holder image">
-              <a href="" class="no-padding black custom-decoration-02">
-                <h5 class="font-weight-bold">Descriptive title of recent events, get informed!</h5>
-              </a>
-            </div>
-            <br>
-            <div class="m-2 opinion-big-box mx-auto p-0">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-4">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
-            </div>
-  
-            <div class="m-2 opinion-small-box mx-auto">
-              <img class="small-logo" src="images/logo-small.svg" alt="Newsweek logo">
-              <h5 class="font-weight-bold medium-font">SIGN UP FOR OUR <br> NEWSLETTER</h5>
-              <button type="button" class="btn btn-secondary font-weight-bold" name="button">SIGN UP ></button>
-              <br>
-              <small class="font-weight-bold">Update your preferences >></small>
-            </div>
-  
-            <div class="m-2 opinion-big-box p-0 mx-auto">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
-            </div>
-  
-            <div class="m-2 opinion-big-box p-0 mx-auto">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
-            </div>
-            <div class="m-2 opinion-big-box mx-auto p-0">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
-            </div>
-            <div class="m-2 opinion-big-box p-0 mx-auto">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
-            </div>
-            <div class="m-2 opinion-big-box mx-auto p-0">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
-            </div>
-            <div class="m-2 opinion-big-box mx-auto p-0">
-              <img class="big-pic" src="images/placeholder-img.jpg" alt="Big place-holder image">
-              <h5 class="bottom-left tag font-weight-bold">SPONSORED INSIGHT</h5>
-              <h4 class="text-left font-weight-bold pl-2 pt-2">Short and to-the-point title</h4>
-              <h6 class="text-left pl-2 pt-2">Lorem ipsum dolor sit amet, vel ea ipsum contentiones necessitatibus. Eu pri ludus qualisque intellegat, vix ea falli aperiri. Pro at eripuit fierent. Erant tation pri no, ne quis expetenda eam. Qui idque corpora no, mea labitur pertinacia honestatis at. Nam ei malorum singulis disputationi, ea mea etiam docendi expetenda, wisi nostrum recusabo mei an. Sit vero delicatissimi cu.</h6>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 pt-40 pb-40 pl-3">
+          <h6 class="text-uppercase font-weight-bold text-gen-red">newsletter</h6>
+          <div class="border d-md-flex text-md-left text-center">
+            <div class="col-md-4 newsletter-img"></div>
+            <div class="px-md-3">
+              <h5 class="font-weight-bold text-black mb-3 mt-4 pt-3">The Starting 5</h5>
+              <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+              <p class="d-md-inline-block text-uppercase bg-gen-red text-white font-weight-bold w-content p-2 mx-auto">sign up<img src="images/sign-chevron.svg" alt="arrow facing right" class="ml-2"></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <br>
-    <br>
-    <div class="middle-section container-fluid px-3 small-fix">
-  
-      <div class="row container-fluid">
-        <div class="col-lg-3 col-md-3 small-fix">
-          <div class="box-article mx-auto">
-            <img class="img-fluid" src="images/magazine-cover.jpg" alt="December's newsweek cover">
-            <button class="btn btn-light btn-block font-weight-bold black" type="button" name="button">SEE ALL FEATURES ></button>
+      <footer class="mx-3 mt-4 border-top pt-3 px-3 pb-40">
+        <div class="border-bottom d-md-flex justify-content-between">
+          <div class="d-md-flex align-items-end">
+            <img src="images/logo-orange.svg" alt="Newsweek logo" class="pb-3 footer-logo">
+            <p>© 2019 Newsweek</p>
           </div>
+          <ul class="d-flex align-items-center mb-md-0">
+            <li class="w-35p mr-2"><a href="#"><img src="images/facebook.svg" alt="Facebook logo" class="w-100"></a></li>
+            <li class="w-25p mr-2 h-content"><a href="#"><img src="images/twitter.svg" alt="Twitter logo" class="w-100"></a></li>
+            <li class="w-35p mr-2"><a href="#"><img src="images/instagram.svg" alt="Instagram logo" class="w-100"></a></li>
+            <li class="w-20p mr-2 h-content"><a href="#"><img src="images/tumblr.svg" alt="Tumblr logo" class="w-100"></a></li>
+            <li class="w-25p mr-2"><a href="#"><img src="images/linkedin.svg" alt="LinkedIn logo" class="w-100"></a></li>
+          </ul>
         </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="ml-5 wrapper no-padding invisible">
-            <img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek's small logo">
-            <h5 class="medium-font font-weight-bold">IN THE MAGAZINE</h5>
-          </div>
-          <br>
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="ml-5 wrapper no-padding d-none d-sm-none d-md-block">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek small logo">IN THE MAGAZINE</h5>
-          </div>
-          <br>
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="ml-5 wrapper no-padding invisible">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">IN THE MAGAZINE</h5>
-          </div>
-          <br>
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="container-fluid">
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="container-fluid">
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-3">
-          <div class="box-article mx-auto">
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <h5><span class="bg-orange white font-weight-bold">SOURCE</span> <a class="orange custom-decoration" href="#">CATEGORY</a></h5>
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">A lengthier title that describes a posture.</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-  
-    <div class="editor-section px-3 small-fix">
-      <div class="container-fluid">
-        <div class="col-lg-12">
-          <div class="wrapper mx-auto d-flex justify-content-center">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo" src="images/logo-small.svg" alt="Newsweek logo small">EDITOR'S PICK</h5>
-          </div>
-  
-        </div>
-  
-      </div>
-  
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="box-article mx-auto">
-            <h5 class="tag-o font-weight-bold d-none d-xl-block">SECTION</h5>
-            <img class="box-thumb img-fluid" src="images/placeholder-img.jpg" alt="Magazine place-holder image">
-            <a class="custom-decoration black" href="#">
-              <h5 class="font-weight-bold black">An even lengthier title, to provide more contrast for the page's layout.</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <br>
-    <br>
-    <div class="container-fluid bottom-section px-3 small-fix">
-  
-      <div class="row">
-        <div class="col-md-4 col-lg-4">
-          <div class="ml-5 container wrapper no-padding invisible">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">FEATURED SLIDESHOW</h5>
-          </div>
-          <div class="container-fluid bottom-box no-padding">
-            <h5 class="tag-n font-weight-bold">#XX</h5>
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A short description of the photo slideshow that's contained within</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-md-4 col-lg-4">
-          <div class="ml-5 container wrapper no-padding">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">FEATURED SLIDESHOW</h5>
-          </div>
-          <div class="container-fluid bottom-box no-padding">
-            <h5 class="tag-n font-weight-bold">#XX</h5>
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A short description of the photo slideshow that's contained within</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-md-4 col-lg-4">
-          <div class="wrapper no-padding invisible">
-            <h5 class="medium-font font-weight-bold"><img class="small-logo no-padding" src="images/logo-small.svg" alt="Newsweek logo small">FEATURED SLIDESHOW</h5>
-          </div>
-          <div class="container-fluid bottom-box no-padding">
-            <h5 class="tag-n font-weight-bold">#XX</h5>
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A short description of the photo slideshow that's contained within</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-  
-      <div class="row">
-        <div class="col-md-4 col-lg-4">
-          <div class="bottom-box no-padding">
-            <h5 class="tag-n-2 font-weight-bold">#XX</h5>
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A short description of the photo slideshow that's contained within</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-md-4 col-lg-4">
-          <div class="bottom-box no-padding">
-            <h5 class="tag-n-2 font-weight-bold">#XX</h5>
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A short description of the photo slideshow that's contained within</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-md-4 col-lg-4">
-          <div class="bottom-box no-padding">
-            <h5 class="tag-n-2 font-weight-bold">#XX</h5>
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="Slideshow place-holder">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A short description of the photo slideshow that's contained within</h5>
-            </a>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row border-u-g">
-        <div class="col-lg-12">
-          <h5 class="pl-2 font-weight-bold orange">Category</h5>
-        </div>
-        <div class="col-md-4 col-lg-4 col-sm-12">
-          <div class="bottom-box no-padding">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-md-4 col-lg-4 col-sm-12">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="bottom-box no-padding">
-            <ul class="no-padding">
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
+        <div>
+          <div class="d-flex mt-2">
+            <label class="pr-3"><strong>Education:</strong></label>
+            <ul class="d-flex flex-wrap">
+              <li><a href="#" class="pr-2 pl-1 border-md-right my-2 text-dark">U.S. Education</a></li>
+              <li><a href="#" class="pr-2 pl-2 border-md-right my-2 text-dark">日本</a></li>
+              <li><a href="#" class="pr-2 pl-2 border-md-right my-2 text-dark">한국</a></li>
+              <li><a href="#" class="pr-2 pl-2 border-md-right my-2 text-dark">Pakistan</a></li>
+              <li><a href="#" class="pr-2 pl-2 border-md-right my-2 text-dark">Polska</a></li>
+              <li><a href="#" class="pr-2 pl-2 my-2 text-dark">România</a></li>
             </ul>
           </div>
-        </div>
-      </div>
-  
-      <div class="row border-u-g">
-        <div class="col-lg-12">
-          <h5 class="pl-2 font-weight-bold orange">Category</h5>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box no-padding">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box no-padding">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box no-padding">
-            <ul class="no-padding">
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <div class="row border-u-g">
-        <div class="col-lg-12">
-          <h5 class="pl-2 font-weight-bold orange">Category</h5>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box no-padding">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <ul class="no-padding">
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <div class="row border-u-g">
-        <div class="col-lg-12">
-          <h5 class="pl-2 font-weight-bold orange">Category</h5>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <ul class="no-padding">
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-  
-      <div class="row border-u-g">
-        <div class="col-lg-12">
-          <h5 class="pl-2 font-weight-bold orange">Category</h5>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <ul class="no-padding">
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-  
-      <div class="row border-u-g">
-        <div class="col-lg-12">
-          <h5 class="pl-2 font-weight-bold orange">Category</h5>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <img class="img-fluid" src="images/placeholder-img.jpg" alt="place-holder image">
-            <a class="custom-decoration font-weight-bold black" href="#">
-              <h5>A long article title with a certain amount of descriptive quality to take space.</h5>
-            </a>
-          </div>
-        </div>
-  
-        <div class="col-lg-4 col-md-4">
-          <div class="bottom-box">
-            <ul class="no-padding">
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-              <li>
-                <div class="border-d-g"><img class="pr-2 no-padding" src="images/placeholder-img.jpg" alt="place-holder image"><a class="medium-font custom-decoration" href="#">
-                    <h5 class="black font-weight-bold">Slightly shorter title for the aside articles</h5>
-                  </a></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
+          <ul class="d-flex flex-wrap ml-n2">
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">About Us</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Corrections</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Contact Us</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Editorial Guidelines</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Advertise</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Copyright</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Terms & Conditions</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Privacy Policy</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Cookie Policy</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Terms of Sale</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Archive</a></li>
+            <li><a href="#" class="pl-2 border-md-right pr-2 my-2 text-dark">Announcements</a></li>
+            <li><a href="#" class="pl-2 pr-3 my-2 text-dark">Consent preferences</a></li>
+          </ul>
+        </div> 
+      </footer>
     </div>
-  
-    <div class="d-flex justify-content-around small-fix">
-      <h5 class="font-weight-bold orange mr-5 d-none d-sm-none d-lg-block">SUBSCRIBE</h5>
-      <h5 class="font-weight-bold orange text-left mr-5 d-none d-sm-none d-lg-block">NEWSLETTER</h5>
-      <h5 class="font-weight-bold orange d-none d-lg-none d-sm-block text-left">SUBSCRIBE</h5>
-    </div>
-  
-    <div class="news-wrapper small-fix mr-sm-2">
-      <div class="row">
-        <div class="col-lg-7 col-md-12 col-sm-12 ml-1 news-div mb-5 p-4 bg-gray">
-          <img class="left-img mr-5" src="images/magazine-cover.jpg" alt="December 2019 newsweek cover">
-          <h5 class="font-weight-bold black">In-depth Stories You Don't See Elsewhere About <br> Topics You Want to Read!<br><span><small>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!<br><button class="btn bg-orange white"
-                  type="button" name="button">SUBSCRIBE ></button>
-              </small></span>
-          </h5>
-        </div>
-        <h5 class="font-weight-bold orange d-none d-lg-none d-sm-block mx-auto">NEWSLETTER</h5>
-        <div class="col-lg-4 col-md-12 col-sm-12 ml-1 mb-5 border-gray">
-          <img class="sign-img mr-5" src="images/starting-5.png" alt="Starting five displayed in a phone">
-          <h5 class="font-weight-bold black">The Starting 5 <br> <span><small>Take back your inbox.<br>Sign up for our <br> newsletter and start <br> making sense of the <br> world around you.</small><br><button class="btn bg-orange white" type="button"
-                name="button">SIGN UP ></button></span> </h5>
-        </div>
-      </div>
-    </div>
-  
-    <footer class="footer-div container-fluid no-padding px-3 small-fix">
-      <div class="d-flex flex-md-row border-d-g col justify-content-md-between w-100">
-        <div class="footer-logo d-flex flex-sm-column row">
-          <img class="footer-news-logo no-padding col-sm-12" src="images/logo-orange.svg" alt="Newsweek logo">
-          <small class="col-sm-12 mt-sm-0">©2019 NEWSWEEK</small>
-        </div>
-        
-        <div class="footer-icons d-flex mr-md-3 mr-sm-0">
-          <a class="black" href="#"><img src="images/facebook.svg" alt="Facebook logo"></a>
-          <a class="black" href="#"><img src="images/twitter.svg" alt="Twitter logo"></a>
-          <a class="black" href="#"><img src="images/instagram.svg" alt="Instagram logo"></a>
-          <a class="black" href="#"><img src="images/tumblr.svg" alt="Tumblr logo"></a>
-          <a class="black" href="#"><img src="images/linkedin.svg" alt="LinkedIn logo"></a>
-        </div>
-      </div>
-      <div class="footer-links container-fluid">
-        <div class="footer-link-row d-flex container-fluid no-padding">
-          <h5 class="small-font darkgray mr-2">Editions</h5>
-          <a class="small-font darkgray mr-2" href="#">U.S Edition </a>
-          <a class="small-font darkgray mr-2" href="#">日本 </a>
-          <a class="small-font darkgray mr-2" href="#">한국 </a>
-          <a class="small-font darkgray mr-2" href="#">Pakistan </a>
-          <a class="small-font darkgray mr-2" href="#">Polska </a>
-          <a class="small-font darkgray mr-2" href="#">România </a>
-        </div>
-        <div class="footer-link-row d-flex no-padding">
-          <h5 class="small-font darkgray mr-2">About us</h5>
-          <a class="small-font darkgray mr-2" href="#">U.S Edition</a>
-          <a class="small-font darkgray mr-2" href="#">Corrections</a>
-          <a class="small-font darkgray mr-2" href="#">Contact Us</a>
-          <a class="small-font darkgray mr-2" href="#">Editorial Guidelines</a>
-          <a class="small-font darkgray mr-2" href="#">Advertise</a>
-          <a class="small-font darkgray mr-2" href="#">Copyright</a>
-          <a class="small-font darkgray mr-2" href="#">Terms & Conditions</a>
-          <a class="small-font darkgray mr-2" href="#">Privacy Policy</a>
-          <a class="small-font darkgray mr-2" href="#">Cookie Policy</a>
-          <a class="small-font darkgray mr-2" href="#">Terms of Sale</a>
-          <a class="small-font darkgray mr-2" href="#">Archive</a>
-        </div>
-        <div class="footer-link-row no-padding d-flex">
-          <a class="small-font darkgray mr-2 border-r-g" href="#">Announcements </a>
-          <a class="small-font darkgray mr-2" href="#">U.S Edition</a>
-        </div>
-      </div>
-  
-    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
