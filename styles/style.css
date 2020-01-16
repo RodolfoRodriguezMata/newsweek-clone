@@ -1,0 +1,359 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-xl {
+  max-width: 1310px;
+}
+
+.header-position {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.w-content {
+  width: max-content;
+}
+
+.image-label {
+  background-color: rgba(255, 255, 255, 0.9);
+  bottom: 0;
+  left: 0;
+}
+
+[class*="basis"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bg-gen-red {
+  background-color: #f72210;
+}
+
+.text-gen-red {
+  color: #f72210;
+}
+
+.gen-red-underline:hover {
+  text-decoration-color: #f72210;
+}
+
+.hover-black:hover {
+  color: #000;
+}
+
+.gen-red-hover-line-none:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.text-black {
+  color: #000;
+}
+
+header {
+  min-height: 47px;
+}
+
+.nav-menu {
+  max-width: 30px;
+}
+
+.header-links > * {
+  font-size: 80%;
+}
+
+.subscribe-chevron {
+  display: none;
+}
+
+[src*="chevron-right"] {
+  width: 20px;
+}
+
+[src*="sign-chevron"] {
+  width: 10px;
+}
+
+.logo img {
+  width: 137px;
+}
+
+.search-container {
+  width: 200px;
+}
+
+.search {
+  background: url("../images/search.svg") no-repeat 80%;
+  background-size: 20px;
+}
+
+main {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.section-heading {
+  color: #aaa;
+  font-size: 95%;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.grey {
+  color: rgb(51, 51, 51);
+}
+
+.light-grey {
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.more-stories .col-12 {
+  padding: 0;
+}
+
+.more-stories img {
+  width: 33%;
+}
+
+.opinion div {
+  flex-basis: 72%;
+}
+
+.author-img {
+  height: 63px;
+  width: 63px;
+}
+
+.bg-grey {
+  background: rgb(244, 245, 247);
+}
+
+.label {
+  background-color: #c2d4d7;
+}
+
+.sponsored-insight .image-label {
+  color: rgb(53, 129, 244);
+}
+
+.sponsored-insight + .info {
+  border-color: rgb(230, 230, 230);
+  margin-bottom: 30px;
+}
+
+.l-news-image {
+  width: 50%;
+  min-width: 120px;
+}
+
+.small-logo {
+  width: 27px;
+  height: 27px;
+  background-color: #fd2903;
+}
+
+[src*="black-chevron"] {
+  width: 10px;
+}
+
+.issue-20 {
+  font-size: 16px;
+}
+
+.articles-section div h5 {
+  padding-bottom: 7px;
+}
+
+.slides .n-logo {
+  width: 34px;
+  height: 33px;
+  border: 1px solid #fff;
+  box-shadow: 3px 3px #f72210;
+}
+
+.slides div h5 {
+  padding-bottom: 0;
+  margin-bottom: 3px;
+}
+
+.slides article {
+  padding-bottom: 40px;
+}
+
+.slides article p {
+  width: 70px;
+  height: 52px;
+  left: -3px;
+  font-size: 23px;
+  padding-left: 27px;
+  padding-top: 13px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.subscribe-img img:last-child {
+  right: 0;
+  top: 14px;
+}
+
+.sub-image {
+  padding-right: 50px;
+}
+
+.sub-img-height {
+  height: 225px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  width: 235px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.w-25p {
+  width: 25px;
+}
+
+.w-35p {
+  width: 35px;
+}
+
+.w-20p {
+  width: 20px;
+}
+
+.h-content {
+  height: max-content;
+}
+
+.newsletter-img {
+  background: url("../images/starting-5.png") center/cover no-repeat;
+  min-height: 225px;
+}
+
+@media screen and (min-width: 480px) {
+  .header-links > * {
+    font-size: 95%;
+  }
+
+  .subscribe-chevron {
+    display: inline-block;
+  }
+
+  .l-news-image {
+    width: 258px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main.container-fluid,
+  .travel.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .w-md-75 {
+    width: 75%;
+  }
+
+  .w-md-25 {
+    width: 25% !important;
+  }
+
+  .w-md-50 {
+    width: 50%;
+  }
+
+  .w-33 {
+    width: 33.3333% !important;
+  }
+
+  .mw-37 {
+    max-width: 37%;
+  }
+
+  [class*="col"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  [class*="colm"] {
+    padding: 0 15px;
+  }
+
+  .colm1 {
+    width: 45%;
+  }
+
+  .colm2 {
+    width: 55%;
+  }
+
+  .more-stories {
+    order: 0;
+  }
+
+  .small {
+    font-size: 15px;
+  }
+
+  .l-news-image {
+    width: 153px;
+  }
+
+  .border-md-right {
+    border-right: 1px solid #d9d9d9;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-position {
+    position: static;
+  }
+
+  .w-l-25 {
+    width: 25%;
+  }
+
+  nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 70px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
+  .colm1,
+  .colm3 {
+    width: 30%;
+  }
+
+  .colm2 {
+    width: 40%;
+  }
+
+  .logo img {
+    width: 400px;
+  }
+
+  .mw-lg-100 {
+    max-width: 100%;
+  }
+}
